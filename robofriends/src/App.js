@@ -8,7 +8,7 @@ class App extends Component {  //create class to use state
     constructor(){ //constructor
         super() // call super on Component class
         this.state = {  //something that can change and effect our app - STATE lives in parent component and passes to smaller components
-            robots: robots,  //App component has TWO STATES 'robots' and searchfield'
+            robots: [],  //App component has TWO STATES 'robots' and searchfield'
             searchfield: '',
         }
     }
